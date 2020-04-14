@@ -749,14 +749,14 @@
 
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="info-box">
-              <i class="bx bx-map"></i>
+              <i class="bx bx-user"></i>
               <div class="form-row" style="margin-top: 10px">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" data-rule="minlen:3" data-msg="Please enter at least 3 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" data-rule="minlen:3" data-msg="Please enter at least 3 chars" />
                   <div class="validate"></div>
                 </div>
               </div>
@@ -765,23 +765,33 @@
 
           <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
             <div class="info-box">
-              <i class="bx bx-share-alt"></i>
-              <h3>Social Profiles</h3>
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
-                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+              <i class="bx bx-phone-call"></i>
+              <div class="form-row" style="margin-top: 10px">
+                <div class="col-md-6 form-group">
+                  <input type="" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone E.g 090942....." data-rule="minlen:11" data-msg="Please enter at least 11 chars" />
+                  <div class="validate"></div>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 mt-4 d-flex align-items-stretch">
             <div class="info-box">
-              <i class="bx bx-envelope"></i>
-              <h3>Email</h3>
-              <p>contact@example.com</p>
+              <i class="bx bx-home-smile"></i>
+              <div class="form-row" style="margin-top: 10px">
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control" name="address" id="address" placeholder="Address" data-rule="address" data-msg="Please enter a valid address" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" name="phone" class="form-control" id="lname" placeholder="Phone E.g 090942....." data-rule="minlen:11" data-msg="Please enter at least 11 chars" />
+                  <div class="validate"></div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-6 mt-4 d-flex align-items-stretch">
