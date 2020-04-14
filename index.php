@@ -788,7 +788,7 @@
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="text" name="phone" class="form-control" id="lname" placeholder="Phone E.g 090942....." data-rule="minlen:11" data-msg="Please enter at least 11 chars" />
+                  <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone E.g 090942....." data-rule="minlen:11" data-msg="Please enter at least 11 chars" />
                   <div class="validate"></div>
                 </div>
               </div>
