@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Personal Bootstrap Template</title>
+  <title>HOR - House of Refuge</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -48,6 +48,7 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#register">Sign In</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -733,6 +734,70 @@
 
     </div>
   </section><!-- End Contact Section -->
+
+
+  <!-- ======= Regestration Section ======= -->
+  <section id="register" class="contact">
+    <div class="container">
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+        <div class="section-title">
+          <h2>Register</h2>
+          <p>Become a member of HOUSE OF REFUGE</p>
+        </div>
+
+        <div class="row mt-2">
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <div class="form-row" style="margin-top: 10px">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-share-alt"></i>
+              <h3>Social Profiles</h3>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
+                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email</h3>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call (President)</h3>
+              <p>+234 8052 730 239</p>
+            </div>
+          </div>
+        </div>
+
+       
+      </form>
+
+    </div>
+  </section><!-- End Registration Section -->
 
 
   <!-- Vendor JS Files -->
