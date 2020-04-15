@@ -741,7 +741,20 @@
     <div class="container">
       <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
         <div class="section-title">
-          <h2>Register</h2>
+          <h2>Login</h2>
+          <div class="form-row" style="margin-top: 10px">
+            <div class="col-md-5 form-group">
+              <input type="" class="form-control" name="email" id="email" placeholder="Email e.g biyasa@gmail.com" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-5 form-group">
+              <input type="password" name="password" class="form-control" id="password" placeholder="Password" data-rule="minlen:5" data-msg="Please enter at least 5 chars" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-2 form-group">
+              <div class="text-center"><button type="submit">Sign in</button></div>
+            </div>
+          </div>
           <p>Become a member of HOUSE OF REFUGE</p>
         </div>
 
@@ -796,9 +809,17 @@
           </div>
           <div class="col-md-6 mt-4 d-flex align-items-stretch">
             <div class="info-box">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call (President)</h3>
-              <p>+234 8052 730 239</p>
+              <i class="bx bx-time"></i>
+              <div class="form-row" style="margin-top: 10px">
+                <div class="col-md-6 form-group">
+                  <input type="date" class="form-control" name="dob" id="dob" placeholder="Date of Birth..." data-rule="date" data-msg="Please enter a valid DOB" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone E.g 090942....." data-rule="minlen:11" data-msg="Please enter at least 11 chars" />
+                  <div class="validate"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
