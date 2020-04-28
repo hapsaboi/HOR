@@ -46,7 +46,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#register">Sign In</a></li>
         </ul>
@@ -452,27 +452,6 @@
 
       
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <i class="bx-fw bx bxl-youtube"></i>Youtube <br>
-            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/live_stream?channel=UCuW-fzVz6wvhji_Q4JVvgVg" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="bx-fw bx bxl-facebook-square"></i>Facebook <br>
-            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/-1Jaaz6bMwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Magni Dolores</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-          </div>
-        </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
@@ -504,11 +483,11 @@
   </section><!-- End Services Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
+  <section id="gallery" class="portfolio">
     <div class="container">
 
       <div class="section-title">
-        <h2>Portfolio</h2>
+        <h2>Gallery</h2>
         <p>My Works</p>
       </div>
 
